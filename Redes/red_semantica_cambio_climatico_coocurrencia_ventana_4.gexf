@@ -68,6 +68,8 @@
       <node id="bienest" label="bienest" />
       <node id="principal" label="principal" />
       <node id="biodivers" label="biodivers" />
+      <node id="cad" label="cad" />
+      <node id="carbon" label="carbon" />
       <node id="desafi" label="desafi" />
       <node id="eleccion" label="eleccion" />
       <node id="esfuerz" label="esfuerz" />
@@ -80,8 +82,9 @@
       <node id="vulner" label="vulner" />
       <node id="camin" label="camin" />
       <node id="lug" label="lug" />
-      <node id="carbon" label="carbon" />
+      <node id="cos" label="cos" />
       <node id="desempeñ" label="desempeñ" />
+      <node id="disminu" label="disminu" />
       <node id="ejempl" label="ejempl" />
       <node id="emple" label="emple" />
       <node id="nitros" label="nitros" />
@@ -120,6 +123,7 @@
       <node id="coordin" label="coordin" />
       <node id="mund" label="mund" />
       <node id="deb" label="deb" />
+      <node id="huell" label="huell" />
       <node id="industrializ" label="industrializ" />
       <node id="defin" label="defin" />
       <node id="plaz" label="plaz" />
@@ -135,6 +139,7 @@
       <node id="diari" label="diari" />
       <node id="diox" label="diox" />
       <node id="oxid" label="oxid" />
+      <node id="podri" label="podri" />
       <node id="garantiz" label="garantiz" />
       <node id="haci" label="haci" />
       <node id="men" label="men" />
@@ -154,7 +159,6 @@
       <node id="reduccion" label="reduccion" />
       <node id="energ" label="energ" />
       <node id="energet" label="energet" />
-      <node id="huell" label="huell" />
       <node id="sistem" label="sistem" />
       <node id="invert" label="invert" />
       <node id="esencial" label="esencial" />
@@ -198,6 +202,7 @@
       <node id="proyect" label="proyect" />
       <node id="regul" label="regul" />
       <node id="verd" label="verd" />
+      <node id="si" label="si" />
       <node id="vid" label="vid" />
       <node id="siend" label="siend" />
       <node id="sin" label="sin" />
@@ -270,126 +275,134 @@
       <edge source="adopt" target="mejor" id="61" weight="1.0" />
       <edge source="mejor" target="air" id="62" weight="1.0" />
       <edge source="mejor" target="cre" id="63" weight="1.0" />
-      <edge source="mejor" target="infraestructur" id="64" weight="1.0" />
-      <edge source="mejor" target="oper" id="65" weight="1.0" />
-      <edge source="mejor" target="reduc" id="66" weight="2.0" />
-      <edge source="agricultur" target="aliment" id="67" weight="1.0" />
-      <edge source="aliment" target="transport" id="68" weight="1.0" />
-      <edge source="agu" target="segur" id="69" weight="1.0" />
-      <edge source="segur" target="resistent" id="70" weight="1.0" />
-      <edge source="segur" target="sistem" id="71" weight="1.0" />
-      <edge source="transport" target="diari" id="72" weight="1.0" />
-      <edge source="alimentari" target="asi" id="73" weight="1.0" />
-      <edge source="asi" target="cienci" id="74" weight="1.0" />
-      <edge source="asi" target="econom" id="75" weight="2.0" />
-      <edge source="asi" target="med" id="76" weight="1.0" />
-      <edge source="ambient" target="person" id="77" weight="1.0" />
-      <edge source="ambient" target="signific" id="78" weight="1.0" />
-      <edge source="person" target="consecuent" id="79" weight="1.0" />
-      <edge source="signific" target="amenaz" id="80" weight="1.0" />
-      <edge source="signific" target="facil" id="81" weight="1.0" />
-      <edge source="amenaz" target="human" id="82" weight="2.0" />
-      <edge source="human" target="cienci" id="83" weight="1.0" />
-      <edge source="human" target="clar" id="84" weight="1.0" />
-      <edge source="human" target="necesit" id="85" weight="1.0" />
-      <edge source="human" target="pes" id="86" weight="1.0" />
-      <edge source="andand" target="conduc" id="87" weight="1.0" />
-      <edge source="conduc" target="mitig" id="88" weight="1.0" />
-      <edge source="apoy" target="tecnolog" id="89" weight="1.0" />
-      <edge source="tecnolog" target="fosil" id="90" weight="1.0" />
-      <edge source="tecnolog" target="oper" id="91" weight="1.0" />
-      <edge source="cienci" target="clar" id="92" weight="1.0" />
-      <edge source="econom" target="benefici" id="93" weight="2.0" />
-      <edge source="econom" target="biodivers" id="94" weight="1.0" />
-      <edge source="econom" target="garantiz" id="95" weight="1.0" />
-      <edge source="econom" target="haci" id="96" weight="1.0" />
-      <edge source="econom" target="men" id="97" weight="1.0" />
-      <edge source="econom" target="pued" id="98" weight="1.0" />
-      <edge source="econom" target="temperatur" id="99" weight="1.0" />
-      <edge source="med" target="ciudadan" id="100" weight="1.0" />
-      <edge source="aument" target="crecimient" id="101" weight="1.0" />
-      <edge source="aument" target="desastr" id="102" weight="1.0" />
-      <edge source="aument" target="sequ" id="103" weight="1.0" />
-      <edge source="aument" target="superfici" id="104" weight="1.0" />
-      <edge source="crecimient" target="mund" id="105" weight="1.0" />
-      <edge source="desastr" target="ten" id="106" weight="1.0" />
-      <edge source="sequ" target="extrem" id="107" weight="1.0" />
-      <edge source="sequ" target="siend" id="108" weight="1.0" />
-      <edge source="aun" target="existent" id="109" weight="1.0" />
-      <edge source="existent" target="neces" id="110" weight="1.0" />
-      <edge source="baj" target="cre" id="111" weight="1.0" />
-      <edge source="biciclet" target="coch" id="112" weight="1.0" />
-      <edge source="bienest" target="principal" id="113" weight="1.0" />
-      <edge source="eleccion" target="sosten" id="114" weight="1.0" />
-      <edge source="esfuerz" target="efect" id="115" weight="1.0" />
-      <edge source="global" target="salud" id="116" weight="1.0" />
-      <edge source="global" target="temperatur" id="117" weight="1.0" />
-      <edge source="pued" target="contamin" id="118" weight="1.0" />
-      <edge source="pued" target="credit" id="119" weight="1.0" />
-      <edge source="pued" target="efect" id="120" weight="1.0" />
-      <edge source="pued" target="eficient" id="121" weight="1.0" />
-      <edge source="pued" target="inund" id="122" weight="1.0" />
-      <edge source="pued" target="regul" id="123" weight="1.0" />
-      <edge source="pued" target="sosten" id="124" weight="1.0" />
-      <edge source="pued" target="verd" id="125" weight="1.0" />
-      <edge source="camin" target="lug" id="126" weight="1.0" />
-      <edge source="carbon" target="desempeñ" id="127" weight="1.0" />
-      <edge source="carbon" target="ejempl" id="128" weight="1.0" />
-      <edge source="carbon" target="emple" id="129" weight="1.0" />
-      <edge source="carbon" target="nitros" id="130" weight="1.0" />
-      <edge source="desempeñ" target="luch" id="131" weight="1.0" />
-      <edge source="ejempl" target="public" id="132" weight="1.0" />
-      <edge source="emple" target="salud" id="133" weight="1.0" />
-      <edge source="caus" target="fosil" id="134" weight="1.0" />
-      <edge source="caus" target="intens" id="135" weight="1.0" />
-      <edge source="caus" target="particul" id="136" weight="1.0" />
-      <edge source="caus" target="represent" id="137" weight="2.0" />
-      <edge source="fosil" target="luch" id="138" weight="1.0" />
-      <edge source="ciclon" target="inund" id="139" weight="1.0" />
-      <edge source="inund" target="esper" id="140" weight="1.0" />
-      <edge source="ciudadan" target="tom" id="141" weight="1.0" />
-      <edge source="tom" target="empres" id="142" weight="1.0" />
-      <edge source="efect" target="march" id="143" weight="1.0" />
-      <edge source="efect" target="quem" id="144" weight="1.0" />
-      <edge source="establec" target="promuev" id="145" weight="1.0" />
-      <edge source="mitig" target="socied" id="146" weight="1.0" />
-      <edge source="product" target="reduccion" id="147" weight="1.0" />
-      <edge source="reduc" target="deb" id="148" weight="2.0" />
-      <edge source="combust" target="embarg" id="149" weight="1.0" />
-      <edge source="combust" target="inversion" id="150" weight="1.0" />
-      <edge source="inversion" target="renov" id="151" weight="1.0" />
-      <edge source="compens" target="credit" id="152" weight="1.0" />
-      <edge source="compr" target="consumidor" id="153" weight="1.0" />
-      <edge source="contribu" target="menud" id="154" weight="1.0" />
-      <edge source="menud" target="resum" id="155" weight="1.0" />
-      <edge source="deb" target="industrializ" id="156" weight="1.0" />
-      <edge source="defin" target="plaz" id="157" weight="1.0" />
-      <edge source="deforest" target="produccion" id="158" weight="1.0" />
-      <edge source="dependent" target="foment" id="159" weight="1.0" />
-      <edge source="desarroll" target="implement" id="160" weight="1.0" />
-      <edge source="desarroll" target="tempran" id="161" weight="1.0" />
-      <edge source="luch" target="mediant" id="162" weight="1.0" />
-      <edge source="diox" target="oxid" id="163" weight="1.0" />
-      <edge source="temperatur" target="terrestr" id="164" weight="1.0" />
-      <edge source="ecosistem" target="mundial" id="165" weight="1.0" />
-      <edge source="sosten" target="esencial" id="166" weight="1.0" />
-      <edge source="invernader" target="metan" id="167" weight="1.0" />
-      <edge source="invernader" target="natural" id="168" weight="2.0" />
-      <edge source="empres" target="practic" id="169" weight="1.0" />
-      <edge source="empres" target="reduccion" id="170" weight="1.0" />
-      <edge source="reduccion" target="vid" id="171" weight="1.0" />
-      <edge source="energ" target="energet" id="172" weight="1.0" />
-      <edge source="energ" target="huell" id="173" weight="1.0" />
-      <edge source="energ" target="sistem" id="174" weight="2.0" />
-      <edge source="energet" target="invert" id="175" weight="1.0" />
-      <edge source="invert" target="limpi" id="176" weight="1.0" />
-      <edge source="inclu" target="promedi" id="177" weight="1.0" />
-      <edge source="inclu" target="resistent" id="178" weight="1.0" />
-      <edge source="limpi" target="reduzc" id="179" weight="1.0" />
-      <edge source="mediant" target="servici" id="180" weight="1.0" />
-      <edge source="mayor" target="planet" id="181" weight="2.0" />
-      <edge source="nivel" target="ocean" id="182" weight="1.0" />
-      <edge source="sin" target="transicion" id="183" weight="1.0" />
+      <edge source="mejor" target="huell" id="64" weight="1.0" />
+      <edge source="mejor" target="infraestructur" id="65" weight="1.0" />
+      <edge source="mejor" target="oper" id="66" weight="1.0" />
+      <edge source="mejor" target="reduc" id="67" weight="2.0" />
+      <edge source="agricultur" target="aliment" id="68" weight="1.0" />
+      <edge source="aliment" target="transport" id="69" weight="1.0" />
+      <edge source="agu" target="segur" id="70" weight="1.0" />
+      <edge source="segur" target="resistent" id="71" weight="1.0" />
+      <edge source="segur" target="sistem" id="72" weight="1.0" />
+      <edge source="transport" target="diari" id="73" weight="1.0" />
+      <edge source="alimentari" target="asi" id="74" weight="1.0" />
+      <edge source="asi" target="cienci" id="75" weight="1.0" />
+      <edge source="asi" target="econom" id="76" weight="2.0" />
+      <edge source="asi" target="med" id="77" weight="1.0" />
+      <edge source="ambient" target="person" id="78" weight="1.0" />
+      <edge source="ambient" target="signific" id="79" weight="1.0" />
+      <edge source="person" target="consecuent" id="80" weight="1.0" />
+      <edge source="signific" target="amenaz" id="81" weight="1.0" />
+      <edge source="signific" target="facil" id="82" weight="1.0" />
+      <edge source="amenaz" target="human" id="83" weight="2.0" />
+      <edge source="human" target="cienci" id="84" weight="1.0" />
+      <edge source="human" target="clar" id="85" weight="1.0" />
+      <edge source="human" target="necesit" id="86" weight="1.0" />
+      <edge source="human" target="pes" id="87" weight="1.0" />
+      <edge source="andand" target="conduc" id="88" weight="1.0" />
+      <edge source="conduc" target="mitig" id="89" weight="1.0" />
+      <edge source="apoy" target="tecnolog" id="90" weight="1.0" />
+      <edge source="tecnolog" target="fosil" id="91" weight="1.0" />
+      <edge source="tecnolog" target="oper" id="92" weight="1.0" />
+      <edge source="cienci" target="clar" id="93" weight="1.0" />
+      <edge source="econom" target="benefici" id="94" weight="2.0" />
+      <edge source="econom" target="biodivers" id="95" weight="1.0" />
+      <edge source="econom" target="garantiz" id="96" weight="1.0" />
+      <edge source="econom" target="haci" id="97" weight="1.0" />
+      <edge source="econom" target="men" id="98" weight="1.0" />
+      <edge source="econom" target="pued" id="99" weight="1.0" />
+      <edge source="econom" target="temperatur" id="100" weight="1.0" />
+      <edge source="med" target="ciudadan" id="101" weight="1.0" />
+      <edge source="aument" target="crecimient" id="102" weight="1.0" />
+      <edge source="aument" target="desastr" id="103" weight="1.0" />
+      <edge source="aument" target="sequ" id="104" weight="1.0" />
+      <edge source="aument" target="superfici" id="105" weight="1.0" />
+      <edge source="crecimient" target="mund" id="106" weight="1.0" />
+      <edge source="desastr" target="ten" id="107" weight="1.0" />
+      <edge source="sequ" target="extrem" id="108" weight="1.0" />
+      <edge source="sequ" target="siend" id="109" weight="1.0" />
+      <edge source="aun" target="existent" id="110" weight="1.0" />
+      <edge source="existent" target="neces" id="111" weight="1.0" />
+      <edge source="baj" target="cre" id="112" weight="1.0" />
+      <edge source="biciclet" target="coch" id="113" weight="1.0" />
+      <edge source="bienest" target="principal" id="114" weight="1.0" />
+      <edge source="cad" target="carbon" id="115" weight="1.0" />
+      <edge source="carbon" target="cos" id="116" weight="1.0" />
+      <edge source="carbon" target="desempeñ" id="117" weight="1.0" />
+      <edge source="carbon" target="disminu" id="118" weight="1.0" />
+      <edge source="carbon" target="ejempl" id="119" weight="1.0" />
+      <edge source="carbon" target="emple" id="120" weight="1.0" />
+      <edge source="carbon" target="nitros" id="121" weight="1.0" />
+      <edge source="eleccion" target="sosten" id="122" weight="1.0" />
+      <edge source="esfuerz" target="efect" id="123" weight="1.0" />
+      <edge source="global" target="salud" id="124" weight="1.0" />
+      <edge source="global" target="temperatur" id="125" weight="1.0" />
+      <edge source="pued" target="contamin" id="126" weight="1.0" />
+      <edge source="pued" target="credit" id="127" weight="1.0" />
+      <edge source="pued" target="efect" id="128" weight="1.0" />
+      <edge source="pued" target="eficient" id="129" weight="1.0" />
+      <edge source="pued" target="inund" id="130" weight="1.0" />
+      <edge source="pued" target="regul" id="131" weight="1.0" />
+      <edge source="pued" target="sosten" id="132" weight="1.0" />
+      <edge source="pued" target="verd" id="133" weight="1.0" />
+      <edge source="camin" target="lug" id="134" weight="1.0" />
+      <edge source="desempeñ" target="luch" id="135" weight="1.0" />
+      <edge source="disminu" target="podri" id="136" weight="1.0" />
+      <edge source="ejempl" target="public" id="137" weight="1.0" />
+      <edge source="emple" target="salud" id="138" weight="1.0" />
+      <edge source="caus" target="fosil" id="139" weight="1.0" />
+      <edge source="caus" target="intens" id="140" weight="1.0" />
+      <edge source="caus" target="particul" id="141" weight="1.0" />
+      <edge source="caus" target="represent" id="142" weight="2.0" />
+      <edge source="fosil" target="luch" id="143" weight="1.0" />
+      <edge source="ciclon" target="inund" id="144" weight="1.0" />
+      <edge source="inund" target="esper" id="145" weight="1.0" />
+      <edge source="ciudadan" target="tom" id="146" weight="1.0" />
+      <edge source="tom" target="empres" id="147" weight="1.0" />
+      <edge source="efect" target="march" id="148" weight="1.0" />
+      <edge source="efect" target="quem" id="149" weight="1.0" />
+      <edge source="establec" target="promuev" id="150" weight="1.0" />
+      <edge source="mitig" target="socied" id="151" weight="1.0" />
+      <edge source="product" target="reduccion" id="152" weight="1.0" />
+      <edge source="reduc" target="deb" id="153" weight="2.0" />
+      <edge source="reduc" target="si" id="154" weight="1.0" />
+      <edge source="combust" target="embarg" id="155" weight="1.0" />
+      <edge source="combust" target="inversion" id="156" weight="1.0" />
+      <edge source="inversion" target="renov" id="157" weight="1.0" />
+      <edge source="compens" target="credit" id="158" weight="1.0" />
+      <edge source="compr" target="consumidor" id="159" weight="1.0" />
+      <edge source="contribu" target="menud" id="160" weight="1.0" />
+      <edge source="menud" target="resum" id="161" weight="1.0" />
+      <edge source="deb" target="huell" id="162" weight="1.0" />
+      <edge source="deb" target="industrializ" id="163" weight="1.0" />
+      <edge source="huell" target="energ" id="164" weight="1.0" />
+      <edge source="defin" target="plaz" id="165" weight="1.0" />
+      <edge source="deforest" target="produccion" id="166" weight="1.0" />
+      <edge source="dependent" target="foment" id="167" weight="1.0" />
+      <edge source="desarroll" target="implement" id="168" weight="1.0" />
+      <edge source="desarroll" target="tempran" id="169" weight="1.0" />
+      <edge source="luch" target="futur" id="170" weight="1.0" />
+      <edge source="luch" target="mediant" id="171" weight="1.0" />
+      <edge source="diox" target="oxid" id="172" weight="1.0" />
+      <edge source="temperatur" target="terrestr" id="173" weight="1.0" />
+      <edge source="ecosistem" target="mundial" id="174" weight="1.0" />
+      <edge source="sosten" target="esencial" id="175" weight="1.0" />
+      <edge source="invernader" target="metan" id="176" weight="1.0" />
+      <edge source="invernader" target="natural" id="177" weight="2.0" />
+      <edge source="empres" target="practic" id="178" weight="1.0" />
+      <edge source="empres" target="reduccion" id="179" weight="1.0" />
+      <edge source="reduccion" target="vid" id="180" weight="1.0" />
+      <edge source="energ" target="energet" id="181" weight="1.0" />
+      <edge source="energ" target="sistem" id="182" weight="2.0" />
+      <edge source="energet" target="invert" id="183" weight="1.0" />
+      <edge source="invert" target="limpi" id="184" weight="1.0" />
+      <edge source="inclu" target="promedi" id="185" weight="1.0" />
+      <edge source="inclu" target="resistent" id="186" weight="1.0" />
+      <edge source="limpi" target="reduzc" id="187" weight="1.0" />
+      <edge source="mediant" target="servici" id="188" weight="1.0" />
+      <edge source="mayor" target="planet" id="189" weight="2.0" />
+      <edge source="nivel" target="ocean" id="190" weight="1.0" />
+      <edge source="sin" target="transicion" id="191" weight="1.0" />
     </edges>
   </graph>
 </gexf>

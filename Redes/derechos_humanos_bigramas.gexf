@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-28">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="dignid" label="dignid" />
+      <node id="human" label="human" />
+      <node id="fundament" label="fundament" />
+      <node id="convivent" label="convivent" />
+      <node id="pacif" label="pacif" />
+      <node id="just" label="just" />
+      <node id="virtud" label="virtud" />
+      <node id="tod" label="tod" />
+      <node id="person" label="person" />
+      <node id="derech" label="derech" />
+      <node id="vid" label="vid" />
+      <node id="libert" label="libert" />
+      <node id="principi" label="principi" />
+      <node id="gui" label="gui" />
+      <node id="luch" label="luch" />
+    </nodes>
+    <edges>
+      <edge source="dignid" target="human" id="0" weight="3" />
+      <edge source="dignid" target="virtud" id="1" weight="1" />
+      <edge source="dignid" target="libert" id="2" weight="1" />
+      <edge source="human" target="fundament" id="3" weight="1" />
+      <edge source="human" target="tod" id="4" weight="1" />
+      <edge source="human" target="principi" id="5" weight="1" />
+      <edge source="human" target="derech" id="6" weight="1" />
+      <edge source="fundament" target="convivent" id="7" weight="1" />
+      <edge source="convivent" target="pacif" id="8" weight="1" />
+      <edge source="pacif" target="just" id="9" weight="1" />
+      <edge source="just" target="virtud" id="10" weight="1" />
+      <edge source="tod" target="person" id="11" weight="1" />
+      <edge source="person" target="derech" id="12" weight="1" />
+      <edge source="derech" target="vid" id="13" weight="1" />
+      <edge source="derech" target="luch" id="14" weight="1" />
+      <edge source="vid" target="libert" id="15" weight="1" />
+      <edge source="principi" target="gui" id="16" weight="1" />
+      <edge source="gui" target="luch" id="17" weight="1" />
+    </edges>
+  </graph>
+</gexf>

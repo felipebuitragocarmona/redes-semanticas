@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-11-27">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="alimentari" label="alimentari" />
+      <node id="biodivers" label="biodivers" />
+      <node id="amenaz" label="amenaz" />
+      <node id="global" label="global" />
+      <node id="asi" label="asi" />
+      <node id="econom" label="econom" />
+      <node id="aument" label="aument" />
+      <node id="esper" label="esper" />
+      <node id="sequ" label="sequ" />
+      <node id="bienest" label="bienest" />
+      <node id="person" label="person" />
+      <node id="ecosistem" label="ecosistem" />
+      <node id="cambi" label="cambi" />
+      <node id="climat" label="climat" />
+      <node id="consecuent" label="consecuent" />
+      <node id="segur" label="segur" />
+      <node id="desastr" label="desastr" />
+      <node id="natural" label="natural" />
+      <node id="mundial" label="mundial" />
+      <node id="implic" label="implic" />
+      <node id="grav" label="grav" />
+      <node id="human" label="human" />
+      <node id="signific" label="signific" />
+      <node id="inund" label="inund" />
+      <node id="med" label="med" />
+      <node id="temperatur" label="temperatur" />
+      <node id="pued" label="pued" />
+      <node id="ten" label="ten" />
+      <node id="salud" label="salud" />
+    </nodes>
+    <edges>
+      <edge source="alimentari" target="biodivers" id="0" weight="1.0" />
+      <edge source="biodivers" target="ecosistem" id="1" weight="1.0" />
+      <edge source="amenaz" target="global" id="2" weight="1.0" />
+      <edge source="global" target="implic" id="3" weight="1.0" />
+      <edge source="asi" target="econom" id="4" weight="1.0" />
+      <edge source="econom" target="mundial" id="5" weight="1.0" />
+      <edge source="aument" target="esper" id="6" weight="1.0" />
+      <edge source="aument" target="sequ" id="7" weight="1.0" />
+      <edge source="bienest" target="person" id="8" weight="1.0" />
+      <edge source="cambi" target="climat" id="9" weight="1.0" />
+      <edge source="consecuent" target="segur" id="10" weight="1.0" />
+      <edge source="segur" target="human" id="11" weight="1.0" />
+      <edge source="desastr" target="natural" id="12" weight="1.0" />
+      <edge source="natural" target="pued" id="13" weight="1.0" />
+      <edge source="implic" target="signific" id="14" weight="1.0" />
+      <edge source="med" target="temperatur" id="15" weight="1.0" />
+      <edge source="pued" target="ten" id="16" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -19,6 +19,8 @@ G.add_edges_from([('ave', 'aguila'), ('ave', 'loro'), ('ave', 'pinguino'),
 
 # Convert the graph to a NumPy array
 A = nx.to_numpy_array(G)
+print(A)
+
 
 # Apply KMeans clustering
 kmeans = KMeans(n_clusters=3).fit(A)
